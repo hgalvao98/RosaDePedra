@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet" />
+    <script type="text/javascript" src="./JavaScript/functions.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rosa de Pedra</title>
+</head>
+
+<body>
+    <div id="sidebar" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./assets/x-mark 1.png"></a>
+        <a href="#" onclick="closeNav()">Início</a>
+        <a href="#section1" onclick="closeNav()">Quem Somos</a>
+        <a href="#section2" onclick="closeNav()">Produtos</a>
+        <a href="#section3" onclick="closeNav()">Perguntas Frequentes</a>
+        <a href="#section4">Fale conosco</a>
+    </div>
+    <header>
+        <img class="plantBackground" src="./assets/plant-background.png" />
+        <div class="menu">
+            <img class="logo" src="./assets/Vector.png" alt="Logo Rosa de Pedra" />
+            <img class="menuIcon" onclick="openNav()" src="./assets/menu.png" alt="Menu" />
+            <a href="#" onclick="closeNav()">Início</a>
+            <a href="#section1" onclick="closeNav()">Quem Somos</a>
+            <a href="#section2" onclick="closeNav()">Produtos</a>
+            <a href="#section3" onclick="closeNav()">Perguntas Frequentes</a>
+            <a href="#section4">Fale conosco <img src="./assets/arrowRight.png" alt="arrow right"></img></a>
+        </div>
+        <div class="infoHeader">
+            <h3>SUCULENTAS<span>.</span></h3>
+            <a href="#section2">Saiba mais <img src="./assets/arrowRight.png" alt="arrow right"></img></a>
+        </div>
+    </header>
+    <section class="about" id="section1">
+        <container class="aboutInfo">
+            <div class="text">
+                <ul>
+                    <li>Quem Somos</li>
+                </ul>
+                <h1>QUEM SOMOS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales, diam non varius aliquam, ex tellus porttitor justo, bibendum feugiat erat lorem in lacus. Etiam finibus pellentesque faucibus. Donec iaculis hendrerit odio in
+                    pellentesque. Quisque dictum mollis velit, eget malesuada eros porttitor eu.
+                    <br/>
+                    <br/> Praesent sed vulputate nisi. Vivamus fringilla urna vel metus ullamcorper viverra. Nullam accumsan nisi velit, quis iaculis arcu tristique bibendum. Aenean a cursus arcu. Maecenas vitae semper ex. Maecenas risus nisi, eleifend
+                    in nunc convallis, aliquet volutpat erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus rutrum ipsum turpis, in blandit velit condimentum ac. Donec euismod id velit quis blandit. Donec sed viverra lorem.
+                </p>
+            </div>
+            <div class="border-image"></div>
+            <img class="image-specialist" src="./assets/Rectangle 48.png" alt="Plant Specialist working">
+        </container>
+        <div class="separator">
+            <svg class="separator__svg" width="100%" height="500" viewBox="40 0 30 100" preserveAspectRatio="none" fill="#FEDCE0">
+               <path d="M 100 100 V 30 L 0 100"/>
+            </svg>
+        </div>
+    </section>
+    <section class="products" id="section2">
+        <container class="productsInfo">
+            <h1 data-title="Produtos">Produtos</h1>
+            <img class="small-circle" src="./assets/Ellipse 13.png" alt="circle">
+            <img class="big-circle" src="./assets/Ellipse 12.png" alt="circle">
+            <div class="container-info">
+                <img class="plant-vase" src="./assets/plant-vase.png" alt="Suculant in white vase" />
+                <div class="container-text">
+                    <h3>Conheça as Suculentas:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales, diam non varius aliquam, ex tellus porttitor justo, bibendum feugiat erat lorem in lacus. Etiam finibus pellentesque faucibus.</p>
+                    <h3>Como cuidar:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales, diam non varius aliquam, ex tellus porttitor justo, bibendum feugiat erat lorem in lacus. Etiam finibus pellentesque faucibus.</p>
+                </div>
+            </div>
+        </container>
+    </section>
+    <section class="faq" id="section3">
+        <container class="faqInfo">
+            <ul>
+                <li>Perguntas Frequentes</li>
+            </ul>
+            <h1>PERGUNTAS FREQUENTES</h1>
+        </container>
+        <div class="questions">
+            <img class="arrow-down" id="crossIcon" src="./assets/Rectangle 54.png" />
+            <button class="accordion">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="questions">
+            <img class="arrow-down" id="crossIcon" src="./assets/Rectangle 54.png" />
+            <button class="accordion">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="questions">
+            <img class="arrow-down" id="crossIcon" src="./assets/Rectangle 54.png" />
+            <button class="accordion">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="questions">
+            <img class="arrow-down" id="crossIcon" src="./assets/Rectangle 54.png" />
+            <button class="accordion">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    var cross = this.previousElementSibling;
+                    if (panel.style.maxHeight) {
+                        cross.style.transform = "unset"
+                        panel.style.maxHeight = null;
+                    } else {
+                        cross.style.transform = "rotate(180deg)"
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+    </section>
+    <section class="newsletter" style="background-image: url('./assets/Mask\ Group.png'); background-repeat: no-repeat;">
+        <div class="newsletter-titles">
+            <h3>Assine nossa</h3>
+            <h2>newsletter</h2>
+        </div>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-mail">
+        <p>Cadastre-se <img src="./assets/arrowRight.png" alt="arrow right">
+        </p>
+    </section>
+    <section class="contact" id="section4">
+        <container class="contactInfo">
+            <ul>
+                <li>Fale conosco</li>
+            </ul>
+            <h1>FALE CONOSCO</h1>
+            <div class="container-info">
+                <form class="form">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Assunto">
+                    <textarea type="text" rows="20" placeholder="Mensagem"></textarea>
+                    <button>Enviar mensagem <img src="./assets/arrowRight.png" alt="arrow right"></button>
+                </form>
+                <img class="coracao" src="./assets/coracao.png" alt="coracao">
+            </div>
+        </container>
+    </section>
+    <footer>
+        <img src="./assets/Group 55.png" />
+        <div class="infoFooter">
+            <p>Rua Dona Francisca, 800</p>
+            <p>Ágora Tech Park, Sala X 2° Andar</p>
+            <p>Distrito Industrial, Perini Business Park</p>
+        </div>
+    </footer>
+</body>
+
+</html>
